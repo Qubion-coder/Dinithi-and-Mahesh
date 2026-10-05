@@ -1060,8 +1060,8 @@ export default function App() {
                       </p>
                     </div>
 
-                    <p className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.2em] text-taupe/80 font-medium leading-relaxed max-w-[200px] md:max-w-xs mt-3">
-                      REQUEST THE HONOUR OF YOUR PRESENCE TO CELEBRATE THEIR WEDDING
+                    <p className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.2em] text-taupe/80 font-medium leading-relaxed max-w-[250px] md:max-w-md mt-3">
+                      REQUEST THE HONOUR OF THE PRESENCE OF MR/MRS./MR.&amp; MRS/MS/FAMILY OF ____________ TO CELEBRATE THEIR WEDDING
                     </p>
 
                     {/* couple names */}
@@ -1087,6 +1087,9 @@ export default function App() {
                         </span>
                         <span className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-taupe font-bold">
                           09:00 AM TO 16:30 PM · 2026
+                        </span>
+                        <span className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-taupe font-bold mt-1">
+                          (PORUWA CEREMONY AT 10:07 AM)
                         </span>
                         <span className="mt-1 block max-w-[200px] px-2 text-[9px] sm:text-[9px] md:text-[10px] uppercase tracking-[0.12em] text-taupe/75 text-center leading-snug break-words">
                           HOTEL GRAND GUARDIAN (BANQUET HALL), KURUWITA
