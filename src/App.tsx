@@ -1409,6 +1409,16 @@ export default function App() {
                     </div>
 
                     <div className="flex items-start gap-2 md:gap-4">
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">10:07 AM</span>
+                      <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
+                        <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
+                      </div>
+                      <div>
+                        <p className="text-[12px] md:text-sm font-bold uppercase tracking-wider">Poruwa Ceremony</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start gap-2 md:gap-4">
                       <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">01:31 PM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />

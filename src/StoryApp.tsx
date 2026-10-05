@@ -421,6 +421,7 @@ export default function StoryApp() {
                   {([
                     { time: "09:00 AM", title: "GUEST ARRIVALS" },
                     { time: "09:14 AM", title: "REGISTRATION" },
+                    { time: "10:07 AM", title: "PORUWA CEREMONY" },
                     { time: "01:31 PM", title: "LUNCH" },
                     { time: "04:16 PM", title: "GOING AWAY" },
                   ] as { time: string; title: string; sub?: string }[]).map((item, idx) => (
