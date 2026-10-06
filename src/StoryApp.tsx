@@ -105,9 +105,20 @@ export default function StoryApp() {
               transition={{ delay: 0.5, duration: 1 }}
               className="z-10 flex flex-col items-center gap-8"
             >
-              <h1 className="script text-6xl sm:text-7xl text-[#2C2C2C] drop-shadow-sm font-normal text-center px-4">
-                Dinithi <span className="text-[#8B7355] text-5xl">&amp;</span> Mahesh
-              </h1>
+              <div className="flex flex-col items-center">
+                <h1 className="script text-[5rem] sm:text-[6.5rem] text-[#9a4b22] drop-shadow-sm font-normal text-center leading-none">
+                  Dinithi
+                </h1>
+                <span className="script text-[4rem] sm:text-[5rem] text-[#9a4b22] leading-none my-2">&amp;</span>
+                <h1 className="script text-[5rem] sm:text-[6.5rem] text-[#9a4b22] drop-shadow-sm font-normal text-center leading-none">
+                  Mahesh
+                </h1>
+                <div className="flex items-center justify-center gap-4 mt-8 mb-2">
+                  <div className="h-[2px] w-12 bg-[#9a4b22]"></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#9a4b22]"></div>
+                  <div className="h-[2px] w-12 bg-[#9a4b22]"></div>
+                </div>
+              </div>
               <p className="text-sm uppercase tracking-[0.3em] text-[#2C2C2C] font-medium text-center">
                 Wedding Invitation
               </p>
@@ -358,9 +369,14 @@ export default function StoryApp() {
               transition={{ duration: 1, delay: 0.3 }}
               className="flex-1 w-full flex flex-col items-center justify-start text-center pt-2 pb-12 z-20 bg-white"
             >
-              <h2 className="serif text-6xl md:text-7xl text-[#2C2C2C] font-normal leading-none mt-4">DINITHI</h2>
-              <span className="script text-5xl md:text-6xl text-[#2C2C2C] my-1 opacity-80">and</span>
-              <h2 className="serif text-6xl md:text-7xl text-[#2C2C2C] font-normal leading-none">MAHESH</h2>
+              <h2 className="script text-[5rem] md:text-[6.5rem] text-[#9a4b22] font-normal leading-none mt-4">Dinithi</h2>
+              <span className="script text-[4rem] md:text-[5rem] text-[#9a4b22] leading-none my-2">&amp;</span>
+              <h2 className="script text-[5rem] md:text-[6.5rem] text-[#9a4b22] font-normal leading-none">Mahesh</h2>
+              <div className="flex items-center justify-center gap-4 mt-6">
+                <div className="h-[2px] w-12 bg-[#9a4b22]"></div>
+                <div className="w-1.5 h-1.5 rounded-full bg-[#9a4b22]"></div>
+                <div className="h-[2px] w-12 bg-[#9a4b22]"></div>
+              </div>
             </motion.div>
           </div>
         </section>
@@ -374,23 +390,29 @@ export default function StoryApp() {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1 }}
-                className="bg-white/40 backdrop-blur-md p-8 md:p-10 rounded-[2rem] border border-white/60 w-full max-w-sm flex flex-col items-center shadow-lg text-center"
+                className="bg-white/40 backdrop-blur-md p-8 md:p-10 rounded-[2rem] border border-white/60 w-full max-w-sm flex flex-col items-center shadow-lg text-center relative overflow-hidden"
               >
-                <h2 className="script text-5xl text-[#8B7355] mb-6">Our Story</h2>
+                <div className="absolute inset-0 z-0 opacity-20 pointer-events-none mix-blend-multiply">
+                  <img src="/WhatsApp Image 2026-10-04 at 21.30.59 (2).jpeg" alt="Background watermark" className="w-full h-full object-cover" />
+                </div>
                 
-                <div className="space-y-4 text-[#3D2B1F] text-[13px] md:text-[14px] leading-relaxed font-medium">
-                  <p>
-                    We grew up together since 2018, when our paths first crossed and our beautiful journey began.
-                  </p>
-                  <p>
-                    Through laughter, love, and countless memories, we have grown together and cherished every moment.
-                  </p>
-                  <p>
-                    Now, as we begin a new chapter of our lives, we look forward to creating a lifetime of memories together.
-                  </p>
-                  <p className="font-bold pt-4 text-[#8B7355] uppercase tracking-widest text-[11px]">
-                    Join us as we step into forever
-                  </p>
+                <div className="relative z-10 flex flex-col items-center w-full">
+                  <h2 className="script text-5xl text-[#8B7355] mb-6">Our Story</h2>
+                  
+                  <div className="space-y-4 text-[#3D2B1F] text-[13px] md:text-[14px] leading-relaxed font-medium">
+                    <p>
+                      We grew up together since 2018, when our paths first crossed and our beautiful journey began.
+                    </p>
+                    <p>
+                      Through laughter, love, and countless memories, we have grown together and cherished every moment.
+                    </p>
+                    <p>
+                      Now, as we begin a new chapter of our lives, we look forward to creating a lifetime of memories together.
+                    </p>
+                    <p className="font-bold pt-4 text-[#8B7355] uppercase tracking-widest text-[11px]">
+                      Join us as we step into forever
+                    </p>
+                  </div>
                 </div>
               </motion.div>
             </div>
@@ -504,7 +526,7 @@ export default function StoryApp() {
                 </div>
 
                 <p className="serif text-[13px] sm:text-[15px] uppercase tracking-[0.15em] font-bold text-[#2C2C2C] mb-2">
-                  BY NOVEMBER 1, 2026
+                  BY NOVEMBER 15, 2026
                 </p>
                 <p className="text-[10px] sm:text-[11px] uppercase tracking-[0.1em] text-zinc-500 mb-6 font-semibold">
                   Or Contact Us: Mahesh 0773937679 / Dinithi 0779150379

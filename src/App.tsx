@@ -315,7 +315,7 @@ function RSVPForm() {
       <p className="text-[12px] md:text-sm text-zinc-500 uppercase tracking-widest mb-2 text-center leading-relaxed">
         Please let us know by
         <br />
-        November 1st, 2026
+        November 15, 2026
       </p>
       <p className="text-[10px] md:text-[11px] text-zinc-400 uppercase tracking-widest mb-4 md:mb-6 text-center leading-relaxed">
         Or Contact Us:
@@ -541,9 +541,20 @@ export default function App() {
               transition={{ duration: 2, delay: 0.5, ease: "easeOut" }}
               className="absolute top-12 md:top-24 left-0 right-0 text-center z-10 pointer-events-none"
             >
-              <h1 className="serif text-5xl md:text-7xl text-sage/80 font-light tracking-[0.2em] drop-shadow-xl">
-                Dinithi & Mahesh
-              </h1>
+              <div className="flex flex-col items-center">
+                <h1 className="script text-[5rem] md:text-[7rem] text-[#9a4b22] font-normal drop-shadow-xl leading-none">
+                  Dinithi
+                </h1>
+                <span className="script text-[4rem] md:text-[5rem] text-[#9a4b22] leading-none my-2">&amp;</span>
+                <h1 className="script text-[5rem] md:text-[7rem] text-[#9a4b22] font-normal drop-shadow-xl leading-none">
+                  Mahesh
+                </h1>
+                <div className="flex items-center justify-center gap-4 mt-6">
+                  <div className="h-[2px] w-12 bg-[#9a4b22]/80"></div>
+                  <div className="w-1.5 h-1.5 rounded-full bg-[#9a4b22]/80"></div>
+                  <div className="h-[2px] w-12 bg-[#9a4b22]/80"></div>
+                </div>
+              </div>
               <p className="mt-3 text-[12px] md:text-sm uppercase tracking-[0.6em] text-sage/60 font-bold">
                 03 December 2026
               </p>

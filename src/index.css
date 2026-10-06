@@ -14,7 +14,7 @@
 
 @theme {
   --font-serif: "Cormorant Garamond", serif;
-  --font-script: "Great Vibes", cursive;
+  --font-script: "Edwardian Script ITC", "Edwardian Script", "Great Vibes", cursive;
   --font-sans: "Inter", sans-serif;
 
   /* Primary accent — drives all `sage` classes */
